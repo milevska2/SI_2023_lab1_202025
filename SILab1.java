@@ -27,12 +27,14 @@ public class SILab1 {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-
+        int m=0;
         List<Integer> list = new ArrayList<>();
 
-        for (int i = 0; i <= n; i++) {
-            list.add(sc.nextInt());
+        for (m=0; m <= n; m++) {
+          //Fixed by ivana milevska
+          list.add(sc.nextInt());
         }
+        //
 
         System.out.println(filterOddNumbers(list));
 
